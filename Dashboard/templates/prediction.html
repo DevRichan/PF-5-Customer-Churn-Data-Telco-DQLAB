@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        {% block body %}
+        <div class='container pt 5'>
+            <br>
+            <center><h3>Prediction Customer Churn</h3></center>
+            <hr>
+            <div class='row justify-content-center'>
+                <form action='/prediction' method="POST">
+                    
+                    
+                    
+                    <!-- Gender -->
+                    <select class='form-control form-control-sm' name="gender" required>
+                        <option value="" disabled selected>Gender</option>
+                        {% for item in data_gender%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+
+                    <!-- SC -->
+                    <select class='form-control form-control-sm' name="SeniorCitizen" required>
+                        <option value="" disabled selected>Senior Citizen</option>
+                        {% for item in data_decision%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+
+                    <!-- 'Partner' -->
+                    <select class='form-control form-control-sm' name="Partner" required >
+                        <option value="" disabled selected>Partner</option>
+                        {% for item in data_decision%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+                    
+                    <!-- tenure -->
+                    <input type="number" step="any" name="tenure" class="form-control form-control-sm mt-2"  min='0' placeholder="tenure" required>
+                    <br>
+                    <!-- PhoneService -->
+                    <select class='form-control form-control-sm' name="PhoneService" required>
+                        <option value="" disabled selected>Phone Service</option>
+                        {% for item in data_decision%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+
+                    <!-- StreamingTV-->
+                    <select class='form-control form-control-sm' name="StreamingTV" required>
+                        <option value="" disabled selected>Streaming TV</option>
+                        {% for item in data_decision%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+
+
+                    <!--InternetService -->
+                    <select class='form-control form-control-sm' name="InternetService" required >
+                        <option value="" disabled selected>Internet Service</option>
+                        {% for item in data_decision%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+
+                    <!-- PaperlessBilling -->
+                    <select class='form-control form-control-sm' name="PaperlessBilling" required >
+                        <option value="" disabled selected>PaperlessBilling</option>
+                        {% for item in data_decision%}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </select>
+                    <br>
+
+                    <input type="number" step="any" name="MonthlyCharges" class="form-control form-control-sm mt-2"  min='0' placeholder="MonthlyCharges" required>
+                    
+                    <input type="number" step="any" name="TotalCharges" class="form-control form-control-sm mt-2" min='0' placeholder="TotalCharges" required>
+                    <br>
+
+                    <button type="submit" class="btn btn-success mt-4"> Let's Predict!</button>
+                </form>
+            </div>
+        </div>
+        {% endblock body %}
+    </body>
+</html>
