@@ -3,6 +3,8 @@
 Project ini merupakan lanjutan dari :
 [Data Science in Telco (Data Cleansing)](https://github.com/DevRichan/PF-2-Data-Science-in-Telco-Data-Cleansing-DQLAB)
 
+Certificates : [Customer Churn Prediction using Machine Learning](https://drive.google.com/file/d/1xijpRIaRkQwpvYZCyd4sFheb_erVx2BI/view?usp=sharing)
+
 Apa saja yang dilakukan ? 
 
 - Exploratory Data Analysis
