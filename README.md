@@ -1,3 +1,11 @@
 # PF-5-Customer-Churn-Data-Telco-DQLAB
 
-readme nya belum di edit wait waitt
+Project ini merupakan lanjutan dari :
+https://github.com/DevRichan/PF-2-Data-Science-in-Telco-Data-Cleansing-DQLAB
+
+Apa saja yang dilakukan ? 
+
+- Exploratory Data Analysis
+- Data Pre-Processing
+- Melakukan Pemodelan Machine Learning
+- Menentukan Model Terbaik
