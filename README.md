@@ -13,3 +13,5 @@ Apa saja yang dilakukan ?
 - Menentukan Model Terbaik
 
 Dashboard : 
+
+[Customer Churn using Machine Learning DQLab - Ricki Chandra Hidayatullah](https://www.youtube.com/watch?v=mLnboqN8l0M&ab_channel=RickiChandraHidayatullah)
