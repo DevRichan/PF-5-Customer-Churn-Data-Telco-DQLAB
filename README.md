@@ -1,7 +1,7 @@
 # PF-5-Customer-Churn-Data-Telco-DQLAB
 
 Project ini merupakan lanjutan dari :
-https://github.com/DevRichan/PF-2-Data-Science-in-Telco-Data-Cleansing-DQLAB
+[Data Science in Telco : Data Cleansing](https://github.com/DevRichan/PF-2-Data-Science-in-Telco-Data-Cleansing-DQLAB)
 
 Apa saja yang dilakukan ? 
 
